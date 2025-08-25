@@ -131,7 +131,7 @@ ans = ans.hexdigest()
 
 print(ans)
 
-client.sendto(f"Submit: 2023MCS2481@randomteam\nMD5: {ans}\n\n".encode() , vayuPort)
+client.sendto(f"Submit: 2023MCS2492@avengers\nMD5: {ans}\n\n".encode() , vayuPort)
 data = client.recvfrom(2048)
 
 
@@ -174,6 +174,7 @@ plt.ylabel('Burst')
 plt.grid(True)
 
 plt.savefig('client2.png')
+
 
 
 print(data)
